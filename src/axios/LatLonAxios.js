@@ -20,7 +20,7 @@ const LatLonAxios = () => {
   };
 
   useEffect(() => {
-    latitude && longitude && weatherApi(longitude, longitude);
+    latitude && longitude && weatherApi(latitude, longitude );
   }, [latitude, longitude]);
 
   return <div></div>;

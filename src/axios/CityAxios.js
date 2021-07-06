@@ -12,8 +12,11 @@ const CityAxios = () => {
  
 
   const search = evt => {
+    const key = process.env.REACT_APP_LON_LAT_API_KEY;
+    console.log(`${api.base}weather?q=${query}&units=metric&APPID=${key}`)
+    console.log(key)
     if(evt.key === 'Enter'){
-      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${key}`)
       .then(res => res.json())
       .then(
         result =>{
