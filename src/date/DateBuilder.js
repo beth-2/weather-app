@@ -1,4 +1,5 @@
 import React from 'react'
+import {DIV} from '../style/Styled.styles'
 
 const DateBuilder = () => {
 
@@ -17,7 +18,7 @@ const DateBuilder = () => {
 
   return (
     <div>
-      <div>{dateBuilder(new Date())}</div>
+      <DIV>{dateBuilder(new Date())}</DIV>
     </div>
   )
 }

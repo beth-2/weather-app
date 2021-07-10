@@ -8,11 +8,12 @@ import GlobalStyle from './style/globalStyles'
 const App = () => {
   return (
     <div>
+       <DateBuilder/>
       <GeoContextProvider>
         <LatLonAxios/>
       </GeoContextProvider>
-       <DateBuilder/>
        <CityAxios/>
+       
        <GlobalStyle/>
     </div>
   )
