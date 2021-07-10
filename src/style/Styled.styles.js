@@ -7,10 +7,10 @@ export const Input = styled.input`
   -moz-appearance: none;
   appearance: none;
   background: #f2f2f2;
-  padding: 12px;
-  border-radius: 3px;
-  width: 250px;
-  font-size: 14px;
+  padding: 3%;
+  border-radius: 3%;
+  width: 40%;
+  font-size: 80%;
   opacity: 0.5;
   outline: none;
   position: absolute;
