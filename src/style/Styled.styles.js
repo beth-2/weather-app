@@ -21,7 +21,7 @@ export const Input = styled.input`
 
 export const P = styled.p`
   position: absolute;
-  font-size: 48px;
+  font-size: 200%;
   right: 23%;
   top: -5%;
   color: black;
