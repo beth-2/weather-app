@@ -31,7 +31,7 @@ export const DIV = styled.div`
   font-weight: lighter;
   position: absolute;
   left: 17%;
-  top: 18%;
+  top: 22%;
   color: black;
   `
 
