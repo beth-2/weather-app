@@ -1,22 +1,22 @@
-import React from 'react'
-import CityAxios from './axios/CityAxios'
-import LatLonAxios from './axios/LatLonAxios'
-import { GeoContextProvider } from './context/GeoContext'
-import DateBuilder from './date/DateBuilder'
-import GlobalStyle from './style/globalStyles'
+import React from "react";
+import CityAxios from "./axios/CityAxios";
+import LatLonAxios from "./axios/LatLonAxios";
+import { GeoContextProvider } from "./context/GeoContext";
+import DateBuilder from "./date/DateBuilder";
+import GlobalStyle from "./style/globalStyles";
 
 const App = () => {
   return (
     <div>
-       <DateBuilder/>
+      <DateBuilder />
       <GeoContextProvider>
-        <LatLonAxios/>
+        <LatLonAxios />
       </GeoContextProvider>
-       <CityAxios/>
-       
-       <GlobalStyle/>
-    </div>
-  )
-}
+      <CityAxios />
 
-export default App
+      <GlobalStyle />
+    </div>
+  );
+};
+
+export default App;

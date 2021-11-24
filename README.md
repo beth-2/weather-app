@@ -1,10 +1,10 @@
 ### styled component
 
-` yarn add styled-components `
+`yarn add styled-components`
 
 ### axios
 
-` yarn add axios `
+`yarn add axios`
 
 ### gh-pages
 
